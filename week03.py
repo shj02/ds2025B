@@ -1,4 +1,6 @@
-array = [11, 9, -77, 8]
+import array
 
-for i in range(len(array)):
-    print(f"{array[i]:3} {id(array[i])}")
+arr = array.array('f', [11,9, -77, 8])
+
+for i in range(len(arr)):
+    print(f"{arr[i]:3} {id(arr[i])}")
